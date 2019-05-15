@@ -17,13 +17,44 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var btnAdd: UIButton!
     @IBAction func addAgeBtn(_ sender: UIButton) {
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.warning)
+        print("test")
+        
         if let instance = learnerInstance{
             instance.addAge()
             updateUI()
+     
+            //generator.notificationOccurred(.warning)
+            
         }
+    }
+    @IBOutlet weak var Button2: RoundedButton!
+    @IBAction func button3(_ sender: RoundedButton) {
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.warning)
+        
+    }
+    @IBAction func btnTrs(_ sender: RoundedButton) {
+        let generator = UIImpactFeedbackGenerator(style:.heavy)
+        generator.prepare()
+        generator.impactOccurred()
+    }
+    @IBAction func button4(_ sender: RoundedButton) {
+        let generator = UIImpactFeedbackGenerator(style:.medium)
+        generator.prepare()
+        generator.impactOccurred()
+    }
+    
+    @IBOutlet weak var btnfb: RoundedButton!
+    @IBAction func bntnFeed(_ sender: RoundedButton) {
+        let generator = UISelectionFeedbackGenerator()
+        generator.selectionChanged()
     }
     var learnerInstance: LearnerModel?
     var facilitatorInstance: FacilitatorModel?
+   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -44,24 +44,38 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1G-vZ-QBK" customClass="RoundedButton" customModule="OOP___Git" customModuleProvider="target">
-                                <rect key="frame" x="184" y="454" width="46" height="30"/>
+                                <rect key="frame" x="87" y="454" width="240" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Haptic FeedBack - UI Notif"/>
                                 <connections>
-                                    <action selector="addAgeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pe8-9m-ygc"/>
+                                    <action selector="addAgeBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="8j5-hJ-hF3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X88-sN-S8L" customClass="RoundedButton" customModule="OOP___Git" customModuleProvider="target">
-                                <rect key="frame" x="87" y="610" width="240" height="30"/>
+                                <rect key="frame" x="87" y="528" width="240" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Haptic FeedBack - UI Impact"/>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchDown" id="Hj8-Sv-ZrG"/>
+                                    <action selector="button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mky-HA-dD8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiA-QS-kbq" customClass="RoundedButton" customModule="OOP___Git" customModuleProvider="target">
+                                <rect key="frame" x="87" y="604" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Haptic FeedBack - Selection "/>
+                                <connections>
+                                    <action selector="bntnFeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKt-2p-4sy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Button2" destination="X88-sN-S8L" id="uMI-vy-1ip"/>
                         <outlet property="btnAdd" destination="e1G-vZ-QBK" id="dYB-zo-6jk"/>
+                        <outlet property="btnfb" destination="kiA-QS-kbq" id="JFy-Wv-u7l"/>
                         <outlet property="learnerAge" destination="AT4-ma-g3l" id="NCJ-G6-CCp"/>
                         <outlet property="learnerHeight" destination="pBo-A3-jlB" id="z2K-sF-yFx"/>
                         <outlet property="learnerImage" destination="c4R-Zc-FvD" id="f7H-9c-3sT"/>
