@@ -15,8 +15,3 @@ class MenteeModel: LearnerModel {
         super.init(learnerName: menteeName, learnerAge: menteeAge, learnerHeight: menteeHeight, learnerImageProfile: menteeImageProfile)
     }
 }
-
-
-//init(facilName: String, facilAge: Int, facilHeight: Float, facilImageProfile: String, facilPerk:String) {
-//    facilitatorPerk = facilPerk
-//    super.init(learnerName: facilName, learnerAge: facilAge, learnerHeight: facilHeight, learnerImageProfile: facilImageProfile)
