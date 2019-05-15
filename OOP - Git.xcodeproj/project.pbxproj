@@ -14,6 +14,8 @@
 		B70BD13D228B9D040062DFE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70BD13B228B9D040062DFE7 /* LaunchScreen.storyboard */; };
 		B72EB1AF228BA89C00534ACA /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EB1AE228BA89C00534ACA /* LearnerModel.swift */; };
 		B72EB1B1228BB45A00534ACA /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EB1B0228BB45A00534ACA /* CarModel.swift */; };
+		B72EB1B3228BBF9B00534ACA /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EB1B2228BBF9B00534ACA /* Notes.swift */; };
+		B72EB1B5228BC4C600534ACA /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EB1B4228BC4C600534ACA /* FacilitatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B70BD13E228B9D040062DFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B72EB1AE228BA89C00534ACA /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		B72EB1B0228BB45A00534ACA /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		B72EB1B2228BBF9B00534ACA /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		B72EB1B4228BC4C600534ACA /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		B70BD126228B9D020062DFE7 = {
 			isa = PBXGroup;
 			children = (
+				B72EB1B2228BBF9B00534ACA /* Notes.swift */,
 				B70BD131228B9D030062DFE7 /* OOP - Git */,
 				B70BD130228B9D030062DFE7 /* Products */,
 			);
@@ -59,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				B72EB1AE228BA89C00534ACA /* LearnerModel.swift */,
+				B72EB1B4228BC4C600534ACA /* FacilitatorModel.swift */,
 				B70BD132228B9D030062DFE7 /* AppDelegate.swift */,
 				B70BD134228B9D030062DFE7 /* ViewController.swift */,
 				B72EB1B0228BB45A00534ACA /* CarModel.swift */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72EB1B5228BC4C600534ACA /* FacilitatorModel.swift in Sources */,
 				B72EB1B1228BB45A00534ACA /* CarModel.swift in Sources */,
+				B72EB1B3228BBF9B00534ACA /* Notes.swift in Sources */,
 				B70BD135228B9D030062DFE7 /* ViewController.swift in Sources */,
 				B72EB1AF228BA89C00534ACA /* LearnerModel.swift in Sources */,
 				B70BD133228B9D030062DFE7 /* AppDelegate.swift in Sources */,

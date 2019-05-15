@@ -23,10 +23,12 @@ class ViewController: UIViewController {
         }
     }
     var learnerInstance: LearnerModel?
+    var facilitatorInstance: FacilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel(learnerName: "Alvin", learnerAge: 23, learnerHeight: 165, learnerImageProfile: "")
+        
         updateUI()
         
         
